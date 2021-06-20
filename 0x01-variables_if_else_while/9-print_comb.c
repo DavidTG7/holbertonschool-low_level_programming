@@ -14,7 +14,7 @@ int main(void)
 		{
 			putchar(num);
 			putchar(num == 57 ? ' ' : ',');
-			num != 57 && putchar(' ');
+			putchar(num != 57 ? ' ' : ' ');
 		}
 	putchar(num);
 	return (0);

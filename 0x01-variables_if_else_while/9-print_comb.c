@@ -13,13 +13,9 @@ int main(void)
 		if (num >= 48 && num <= 56)
 		{
 			putchar(num);
-			putchar(',');
-			putchar(' ');
+			putchar(num == 57 ? ' ' : ',');
+			num != 57 && putchar(' ');
 		}
-		else
-		{
-			putchar(num);
-		}
-	}
+	putchar(num);
 	return (0);
 }

@@ -10,10 +10,16 @@ int main(void)
 
 	for (num = 48 ; num <= 57 ; num++)
 	{
-		putchar(num);
-		putchar(',');
-		putchar(' ');
+		if (num >= 48 && num <= 56)
+		{
+			putchar(num);
+			putchar(',');
+			putchar(' ');
+		}
+		else
+		{
+			putchar(num);
+		}
 	}
-	putchar('\n');
 	return (0);
 }

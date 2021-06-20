@@ -10,11 +10,11 @@ int main(void)
 
 	for (num = 48 ; num <= 57 ; num++)
 	{
-		if (num >= 48 && num <= 56)
+		putchar(num);
+		if (num != 57)
 		{
-			putchar(num);
-			putchar(num == 57 ? ' ' : ',');
-			putchar(num != 57 ? ' ' : ' ');
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar(num);

@@ -16,6 +16,7 @@ int main(void)
 			putchar(num == 57 ? ' ' : ',');
 			putchar(num != 57 ? ' ' : ' ');
 		}
+	}
 	putchar(num);
 	return (0);
 }

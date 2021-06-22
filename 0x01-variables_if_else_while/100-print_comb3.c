@@ -13,7 +13,7 @@ int main(void)
 	{	
 		while (dec <='9');
 		{
-			if (!(uni > dec || uni == j))
+			if (!(uni > dec || uni == dec))
 			{
 				putchar(uni);
 				putchar(dec);

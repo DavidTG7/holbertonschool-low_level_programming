@@ -5,9 +5,16 @@
  *
  * Return: Always 0 (Succes)
  */
-int _abs(int)
+int _abs(int r)
 {
-	int r;
-
-	r = _abs(r);
+	if (r > 0)
+	{
+		return (r);
+	}
+	else
+	{
+		r = r * -1;
+		return (r);
+	}
 }
+

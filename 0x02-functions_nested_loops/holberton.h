@@ -15,4 +15,8 @@ void print_alphabet_x10(void);
 
 /* Including prototype to print islower case */
 int _islower(int c);
+
+/* Including prototype to print if a letter is lower or uppercase */
+int _isalpha(int c);
+
 #endif

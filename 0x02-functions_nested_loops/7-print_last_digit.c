@@ -1,4 +1,4 @@
-#include "holberton"
+#include "holberton.h"
 /**
  * print_last_digit - prints the last digit of a number
  * @n: to print last digit
@@ -7,7 +7,5 @@
  */
 int print_last_digit(int n)
 {
-	for (n % 10)
-		_purchar(n);
-		return (n);
+	return (n % 10);
 }

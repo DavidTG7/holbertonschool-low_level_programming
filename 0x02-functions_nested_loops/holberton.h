@@ -19,4 +19,7 @@ int _islower(int c);
 /* Including prototype to print if a letter is lower or uppercase */
 int _isalpha(int c);
 
+/* Including prototype to print sign for positive, negative and 0 numbers */
+int print_sign(int n);
+
 #endif

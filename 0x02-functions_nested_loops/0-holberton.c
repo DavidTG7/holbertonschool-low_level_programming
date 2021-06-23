@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <unistd.h>
-#include <holberton.h>
+#include "holberton.h"
 /**
  * main - Entry point
  *
@@ -8,11 +6,11 @@
  */
 int main(void)
 {
-	char hol[] : "Holberton";
+	char hol[] = "Holberton";
 	int i;
 
-	for (i = 0 ; i <= 9 ; i++)
-		_putchar(hol[i]);
-	_putchar('\n');
+	for (i = 0 ; i <= 8 ; i++)
+		putchar(hol[i]);
+	putchar('\n');
 	return (0);
 }

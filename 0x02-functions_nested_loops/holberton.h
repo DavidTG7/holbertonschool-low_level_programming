@@ -22,4 +22,6 @@ int _isalpha(int c);
 /* Including prototype to print sign for positive, negative and 0 numbers */
 int print_sign(int n);
 
+/* Includign prototype to computes the absolute value of an integer */
+int _abs(int);
 #endif

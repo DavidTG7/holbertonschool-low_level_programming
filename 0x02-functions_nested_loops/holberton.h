@@ -13,4 +13,6 @@ void print_alphabet(void);
 /* Including prototype to print alphabet 10 times */
 void print_alphabet_x10(void);
 
+/* Including prototype to print islower case */
+int _islower(int c);
 #endif

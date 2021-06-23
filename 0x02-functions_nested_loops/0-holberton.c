@@ -2,12 +2,17 @@
 #include <unistd.h>
 #include <holberton.h>
 /**
- * main - Entry poinssst
+ * main - Entry point
  *
  * Return: Always 0 (Succes)
  */
 int main(void)
 {
-	write(1, "Holberton", 9);
+	char hol[] : "Holberton";
+	int i;
+
+	for (i = 0 ; i <= 9 ; i++)
+		_putchar(hol[i]);
+	_putchar('\n');
 	return (0);
 }

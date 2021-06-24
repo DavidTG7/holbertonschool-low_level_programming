@@ -4,7 +4,7 @@
 * @i: to print
 * Return: Always 0 (Succes)
 */
-void positive_or_negative(int i);
+int main(void)
 {
 	int i;
 

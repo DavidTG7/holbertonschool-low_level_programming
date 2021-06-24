@@ -7,7 +7,7 @@
  */
 int _isupper(int c)
 {
-	char c;
+	int c;
 
 	for (c = 65 ; c <= 90 ; c++)
 	{

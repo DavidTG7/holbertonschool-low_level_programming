@@ -2,7 +2,6 @@
 /**
  * print_numbers - to print numbers
  *
- * Return: Always 0 succes
  */
 void print_numbers(void)
 {

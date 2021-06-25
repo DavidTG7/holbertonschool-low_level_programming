@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "holberon.h"
 /**
  * print_remaining_days - to print remaining days and the day of year

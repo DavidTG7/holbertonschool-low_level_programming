@@ -9,5 +9,5 @@ int largest_number(int a, int b, int c);
 
 convert_day(int month, int day);
 
-int convert_day(int month, int day);
+int convert_day(int month, int day, int year);
 #endif /* HOLBERTON_H */

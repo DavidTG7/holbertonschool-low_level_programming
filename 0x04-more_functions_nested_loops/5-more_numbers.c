@@ -6,7 +6,7 @@ void more_numbers(void)
 {
 	int i, con;
 
-	while (con < 10)
+	while (con <= 10)
 	{
 		for (i = 0 ; i <= 14 ; i++)
 		{

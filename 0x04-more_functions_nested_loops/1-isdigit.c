@@ -5,7 +5,7 @@
  *
  * Return: 1 for uppercas and 0 if else
  */
-int _isupper(int c)
+int _isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 		return (1);

@@ -4,7 +4,7 @@
  * @month: month variable
  * @day: day variable
  * @year: year variable
- * Return: Always 0 (Succes)
+ * Return: void 
  */
 void print_remaining_days(int month, int day, int year)
 {

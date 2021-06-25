@@ -8,4 +8,6 @@ void positive_or_negative(int i);
 int largest_number(int a, int b, int c);
 
 convert_day(int month, int day);
+
+int convert_day(int month, int day);
 #endif /* HOLBERTON_H */

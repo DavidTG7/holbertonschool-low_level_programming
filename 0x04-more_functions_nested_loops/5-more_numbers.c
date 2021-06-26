@@ -4,15 +4,17 @@
  */
 void more_numbers(void)
 {
-	int i, con;
+	char i;
+	int counter;
 
-	while (con <= 10)
+	for (counter = 1; counter <= 10; counter++)
 	{
-		for (i = 0 ; i <= 14 ; i++)
+		for (i = 0; i <= 14; i++)
 		{
-			_putchar(i);
+			if (i / 10 > 0)
+				_putchar((i / 10) + '0');
+			_putchar((i % 10) + '0');
 		}
 		_putchar('\n');
-		con++;
 	}
 }
